@@ -2,7 +2,7 @@
 
 body {
     margin-top: 30px;
-    font-size: 200%;
+    font-size: 170%;
     line-height: 180%;
     
     font-family: Helvetica;
@@ -26,6 +26,7 @@ h2 {
 
 a {
     color: #003399;
+    text-decoration: underline;
 }
 :focus {
     background-color: yellow;
@@ -38,6 +39,9 @@ nav ul {
 .navbar {
     text-align: center;
     margin-bottom: 0;
+}
+nav a {
+    text-decoration: none;
 }
 
 section div img { margin: 1em; }
