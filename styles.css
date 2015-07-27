@@ -1,0 +1,49 @@
+/* css for js */
+
+body {
+    margin-top: 30px;
+    font-size: 200%;
+    line-height: 180%;
+    
+    font-family: Helvetica;
+}
+
+p.tagline {
+    font-size: 150%;
+    padding: 0.5em 0 1em 0;
+    border-top: 5px solid #000;
+}
+
+h1, h2, h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+h1 { font-size: 250%; }
+h2 {
+    background-color: #000;
+    color: #fff;
+    padding: 0.25em;
+}
+
+a {
+    color: #003399;
+}
+:focus {
+    background-color: yellow;
+    outline: 2px solid black;
+}
+
+nav ul {
+    display: inline-block;
+}
+.navbar {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+section div img { margin: 1em; }
+
+#social ul { padding: 0; margin-top: -3.8em; }
+#social ul li {
+    list-style: none;
+    display: inline-block;
+}
