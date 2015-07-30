@@ -46,8 +46,34 @@ nav a {
 
 section div img { margin: 1em; }
 
-#social ul { padding: 0; margin-top: -3.8em; }
+#social ul { 
+    padding: 0; 
+    margin-top: -3.8em; 
+    float: right;
+}
 #social ul li {
     list-style: none;
     display: inline-block;
+}
+
+section li {
+    list-style: none;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    border-top: 1px solid #555;
+}
+section li:first-child {
+    border-top: 0;
+}
+
+/* mobile */
+@media (max-width: 780px) {
+    header {
+        text-align: center;
+    }
+    #social ul {
+        margin-top: auto;
+        display: block;
+        float: none;
+    }
 }
